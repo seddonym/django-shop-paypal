@@ -20,5 +20,6 @@ setup(
         'django-paypal',
     ],
     packages=find_packages(exclude=["example", "example.*"]),
-    zip_safe=False
+    zip_safe=False,
+    include_package_data=True,
 )
